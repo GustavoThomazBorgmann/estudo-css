@@ -1,0 +1,125 @@
+
+body { /*Ajustes do corpo*/
+	background-color:#232323;
+	min-width: 600px;
+	max-width: 800px;
+	margin: auto;
+	padding: 0 10px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #fff;
+}
+
+h1, h2 { /*Ajustes dos títulos*/
+	line-height: 1.2;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+
+
+/*Ajustes das listas*/
+ul, ol, dd, dt {
+  line-height: 1.75;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+/*Ajustes das tabelas*/
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	box-shadow: 0px 10px 10px #222;
+}
+
+td {
+  border: 1px solid #555;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  color: white;
+  background: #4b4b4b;
+  border: 1px solid #555;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #353535;
+}
+
+
+
+
+
+ /* Links */
+ a:link {
+  text-decoration: none;
+  color: rgb(37, 51, 131);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(106, 78, 122);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(37, 51, 131);
+}
+
+a:active {
+  text-decoration: underline;
+  color: rgb(57, 67, 128);
+}
+
+
+
+
+
+/* Ajustes do layout dos elementos semânticos*/
+
+aside {
+	width: 135px;
+	float: left;
+	border-right: 3px #46b solid;
+	padding: 0 15px;
+  background: linear-gradient(270deg, #f1f5ff 0%, #fff 20%);
+}
+
+nav {
+	font-size: 1.2em;
+}
+
+#content {
+	margin: 0px 0px 0px 180px;
+	text-align: justify;
+}
+
+header, footer {
+  background: linear-gradient(#ced9f0 0%, #f1f5ff 30%);
+  clear: both;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ddf;
+  border-top: 3px #46b solid;
+}
+
+address {
+	padding: 10px;
+}

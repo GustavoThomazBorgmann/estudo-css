@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    em HTML é 'id'      em CSS é '#'
+    em HTLM é 'class'   em CSS é '.'
+*/
+body{
+    background-color: #ffe ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+main{
+    margin: 14px;
+}
+h1, h2{
+    color: #6B543C;
+}
+h1#principal{
+    margin: auto;
+    padding: 14px;
+    text-align: center;
+    background-color: #6B451C;
+    color: white;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.básico{
+    color: #338b2f;
+    font-weight: bold;
+}
+.intermediário{
+    color: #888a26;
+    font-weight: bold;
+
+}
+.avançado{
+    color: #992d2d;
+    font-weight: bold;
+
+}
+.destaque{
+    background-color: rgb(233, 240, 132);
+    font-weight: bold;
+}

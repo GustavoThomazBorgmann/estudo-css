@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* paleta de cores */
+.Teal-and-Mint-1-hex { color: #C7FFED; }
+.Teal-and-Mint-2-hex { color: #D8FFDB; }
+.Teal-and-Mint-3-hex { color: #008F8C; }
+.Teal-and-Mint-4-hex { color: #015958; }
+.Teal-and-Mint-5-hex { color: #023535; }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #232323;
+    color: #ddd;
+}
+hr{
+    border: 1px solid #353535;
+}

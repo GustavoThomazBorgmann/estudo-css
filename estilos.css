@@ -1,0 +1,132 @@
+/* corpo							*/
+body{
+	background-color: #232323;
+	color: #eee;
+	
+	margin: auto;
+	max-width: 900px;
+	min-width: 300px;
+	padding: 10px;
+	
+	font-family: "Segoe UI";
+}
+hr{
+	border: 1px solid #353535;
+}
+
+a:link {
+  text-decoration: none;
+  color: #c1a;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #c1a;
+}
+
+h2{
+	color:#28d;
+}
+
+dt{
+	font-weight:bold;
+}
+
+del{
+	color: #999;
+}
+
+summary{
+	background-color:#444;
+	color: #ccc;
+	display: inline-block;
+	font-weight: bold;
+	
+	border-radius: 30px;
+	padding: 8px 20px 8px 20px;
+}
+summary:hover{
+	background-color:#259;
+	color: #eee;
+	display: inline-block;
+	font-weight: bold;
+	
+	border-radius: 30px;
+	padding: 8px 20px 8px 20px;
+}
+
+/* Plano de fundo							*/
+
+#moldura{
+	border: 8px solid #141414;
+	border-radius: 18px;
+	background-clip:border-box;
+}
+
+/* botões							*/
+button {
+	background-color: #353535;
+	color: #ccc;
+	font-weight: bold;
+	
+	border: 0px;
+	border-radius: 40px;
+	padding: 12px 20px 12px 20px;
+	
+}
+	button:hover {
+	background-color: #259;
+	color: #fff;
+	border: 0px;
+}
+
+/* grupos							*/
+aside{
+	display: inline-block;
+	line-height: 2;
+	
+	padding: 3px 20px 3px 16px;
+	border-left: 6px #c72 solid;
+	border-radius: 6px;
+}
+dialog{
+	background-color: #353535;
+	color: #eee;
+	
+	padding: 8px 16px 8px 16px;
+	border: 1px #444 solid;
+	border-radius: 20px;
+	
+	
+	
+}
+/* tabelas					*/
+table{
+	border-collapse: collapse;
+	width: 100%;
+	
+}
+th{
+	background-color: #259;
+	padding: 12px;
+	border: 2px #1a1a1a solid;
+}
+tr{
+	background-color: #232323;
+}
+td{
+	padding: 12px;
+	border: 2px #1a1a1a solid;
+}
+tr:nth-child(even) {
+	background-color: #333;
+}
+pre{
+	background-color: #1a1a1a;
+	border:2px solid #1a1a1a;
+	border-radius: 12px;
+	padding: 16px;
+	display: inline-block;
+	
+	
+}

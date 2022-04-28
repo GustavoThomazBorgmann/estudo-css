@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Segoe UI';
+    color: #eee;
+
+    background-color: #232323;
+    margin: auto;
+    min-width: 0px;
+    max-width: 900px;
+    padding: 0px 40px 20px;
+}
+p{
+    text-align: justify;
+}
+h1{
+    color:#d82;
+}
+h2{
+    color:#fa7;
+}
+dt{
+    font-weight: bold;
+}
+hr{
+    border: 1px solid #444;
+}
+a{
+    text-decoration: none;
+    color:#28d;
+}
+#precode{
+    background-color: #191919;
+    color: #c9c9c9;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 10px 15px;
+}
